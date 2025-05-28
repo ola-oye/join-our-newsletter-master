@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 460px;
+    text-align: center;
+    margin: 100px auto;
+    font-family: sans-serif;
+}
+
+.details-box > *, .logo-wrap{
+    margin-bottom: 20px;
+}
+
+.text-info, .form-message{
+    color: #87898f;
+}
+
+.form{
+    margin: 40px 40px 20px;
+    /* border: 1px solid; */
+    /* text-align: center; */
+    padding: 10px 15px 0;
+    border-radius: 10px;
+    box-shadow: 2px 8px 5px #866c6c17, -2px 0px 5px #866c6c17;
+}
+.form > *{
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-block: 15px;
+    border-radius: 10px;
+}
+.email-input{
+    border: 1px solid #866c6c0e;
+}
+.email-input::placeholder{
+    text-align: center;
+}
+.subscribe-btn{
+    background-color: rgb(38, 38, 230);
+    color: #fff;
+    border: none;
+}
+.form-message{
+    font-size: .672rem;
+}
